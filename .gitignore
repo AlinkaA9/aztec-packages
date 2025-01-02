@@ -1,34 +1,9 @@
-dest
+result
 node_modules
-.cache
-scripts/.earthly
-.pnp.cjs
-.pnp.loader.mjs
-build/
+.yarn/cache
+.yarn/install-state.gz
+ts/dest
+.tsbuildinfo
 .idea
 cmake-build-debug
-.terraform*
-terraform.tfstate*
-.bootstrapped
-.tsbuildinfo
-
-# Local Netlify folder
-.netlify
-
-.graphite*
-.DS_Store
-
-**/*.dockerignore
-
-# Earthly
-.arg
-.secret
-.bb_tmp
-
-
-# tmux
-tmux-client-*.log
-.supermavenignore
-
-# parallel
-joblog.txt
+*_opt.pil
